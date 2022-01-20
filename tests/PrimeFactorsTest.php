@@ -21,7 +21,7 @@ class PrimeFactorsTest extends TestCase
     public function inputs(): array
     {
         return [
-            [1, [1]],
+            [1, []],
             [2, [2]],
             [3, [3]],
             [4, [2, 2]],
